@@ -5,11 +5,11 @@ function Project() {
   const [selectedTab, setSelectedTab] = useState("REACT");
 
   const handleTabChange = (tab) => {
-    setSelectedTab(tab);
+    setSelectedTab(tab); 
   };
- 
+
   const filteredData =
-    selectedTab === "All" 
+    selectedTab === "All"
       ? projectData
       : projectData.filter((item) => item.category === selectedTab);
 
@@ -18,7 +18,7 @@ function Project() {
       <div className="w-full pl-4 md:mt-0 pb-8 bg-[#3d3d3d]">
         <span className="md:pl-14 pl-3 pb-3 tracking-wider text-white text-3xl font-bold">
           Projects
-        </span> 
+        </span>
       </div>
 
       <div className="flex flex-wrap justify-center pb-4 bg-[#3d3d3d] text-xl text-white space-x-2 md:space-x-4">

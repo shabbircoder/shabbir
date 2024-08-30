@@ -117,7 +117,7 @@ export const projectData = [
   {
     id: 13,
     src: image14,
-    title: "TO-DO-APP",
+    title: "TO-DO-APP", 
     description: "react-app",
     category: "REACT",
     link: "https://todo-eta-five-61.vercel.app/",
@@ -127,7 +127,7 @@ export const projectData = [
     src: image15,
     title: "Crypto-Tracker",
     description: "react-app",
-    category: "Major",
+    category: "MAJOR",
     link: "https://zipo-zoin.vercel.app/",
   },
   {
@@ -135,7 +135,7 @@ export const projectData = [
     src: image16,
     title: "Weather-app",
     description: "react-app",
-    category: "Major",
+    category: "MAJOR",
     link: "https://weather-chi-inky.vercel.app/",
   },
   {
@@ -143,7 +143,7 @@ export const projectData = [
     src: image17,
     title: "Github-user-finder",
     description: "react-app",
-    category: "Major",
+    category: "MAJOR",
     link: "https://github-user-finder-drab.vercel.app/",
   },
   
@@ -152,7 +152,7 @@ export const projectData = [
     src: image18,
     title: "E-commerce",
     description: "react-app",
-    category: "Major",
+    category: "MAJOR",
     link: "https://shabbircoder-ecommerce.vercel.app/",
   },
 ];
